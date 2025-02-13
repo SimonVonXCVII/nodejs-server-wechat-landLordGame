@@ -2,7 +2,7 @@
  * Created by zhangmiao on 2018/5/8.
  */
 var EventEmitter = require('events').EventEmitter;
-var grpc = require("grpc");
+var grpc = require("@grpc/grpc-js");
 var utils = require("../../util/utils");
 var util = require("util");
 
