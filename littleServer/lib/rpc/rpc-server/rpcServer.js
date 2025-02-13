@@ -55,9 +55,9 @@ RpcServer.prototype.start = function (cb) {
                 console.log(`gRPC 服务器监听端口 ${port}`);
                 // this.server.start(); // 只有在成功绑定后才启动服务器
 
-                this.server.start(function (err, data) {
-                    utils.invokeCallback(cb, err, data);
-                });
+                // this.server.start(function (err, data) {
+                //     utils.invokeCallback(cb, err, data);
+                // });
             }
         }
     );
